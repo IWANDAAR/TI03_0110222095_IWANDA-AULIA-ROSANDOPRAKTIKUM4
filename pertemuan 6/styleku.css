@@ -1,0 +1,78 @@
+body {
+    background-color:rgb(29, 219, 45);
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+#header {
+    background-color:rgb(243, 242, 240);
+    text-align: center;
+    padding: 10px;
+}
+
+
+#header h1 {
+    color:black;
+}
+
+.bBesar {
+    font-size: 50px;
+    color:white;
+    display: inline;
+}
+
+#header blockquote {
+    background-color: #a1a1a1;
+}
+
+.menu ul {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 10px;
+}
+.menu a {
+    text-decoration: none;
+
+}
+
+.gambar {
+    text-align: center;
+}
+
+.bigger {
+    font-size: 20px;
+}
+.fp::first-letter {
+    font-size: 50px;
+    color:black;
+}
+
+.koleksi {
+    text-align: center;
+}
+
+.koleksi img {
+    width: 20%;
+}
+
+.promo {
+    background-color:blanchedalmond;
+    color:black;
+    text-align: center;
+}
+
+.promo ol {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.promo a {
+    text-decoration: none;
+}
